@@ -66,6 +66,7 @@
 
 @property (nonatomic, readwrite, assign) NSInteger pageIndex;
 @property (nonatomic, readwrite, assign) CGSize photoDimensions;
+@property (nonatomic, readwrite, assign) BOOL allowMinScaleToExceedMaxScale;
 
 @end
 
@@ -169,4 +170,18 @@
  * CGSizeZero is used to signify an unknown final photo dimension.
  *
  *      @fn NIPhotoScrollView::photoDimensions
+ */
+
+/**
+ * Allows the minimum scale to exceed the maximum scale.
+ *
+ * On retina screens, the max scale will always evaluate to 0.5, 
+ * causing the image to be narrower than the scrollviews bounds.
+ * Setting allowMinScaleToExceedMaxScale to YES will prevent the
+ * automatic downscaling, but may not be desirable in the case of
+ * small images.
+ *
+ *  allowMinScaleToExceedMaxScale is NO by default
+ *
+ *      @fn NIPhotoScrollView::allowMinScaleToExceedMaxScale
  */

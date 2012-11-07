@@ -395,7 +395,7 @@
                       ? 1
                       : (1.0f / NIScreenScale()));
 
-  if (NIPhotoScrollViewPhotoSizeThumbnail != photoSize) {
+  if (NIPhotoScrollViewPhotoSizeThumbnail != photoSize && !self.allowMinScaleToExceedMaxScale) {
     // Don't let minScale exceed maxScale. (If the image is smaller than the screen, we
     // don't want to force it to be zoomed.)
     minScale = MIN(minScale, maxScale);
