@@ -86,9 +86,6 @@
 #ifndef NIIsArrayWithObjects
 #define NIIsArrayWithObjects __NIMBUS_NS_SYMBOL(NIIsArrayWithObjects)
 #endif
-#ifndef NIIsInDebugger
-#define NIIsInDebugger __NIMBUS_NS_SYMBOL(NIIsInDebugger)
-#endif
 #ifndef NIIsPad
 #define NIIsPad __NIMBUS_NS_SYMBOL(NIIsPad)
 #endif
@@ -101,8 +98,8 @@
 #ifndef NIRectContract
 #define NIRectContract __NIMBUS_NS_SYMBOL(NIRectContract)
 #endif
-#ifndef NISnapshotOfView
-#define NISnapshotOfView __NIMBUS_NS_SYMBOL(NISnapshotOfView)
+#ifndef NISnapshotOfViewWithTransparencyOption
+#define NISnapshotOfViewWithTransparencyOption __NIMBUS_NS_SYMBOL(NISnapshotOfViewWithTransparencyOption)
 #endif
 #ifndef NISwapInstanceMethods
 #define NISwapInstanceMethods __NIMBUS_NS_SYMBOL(NISwapInstanceMethods)
@@ -113,14 +110,14 @@
 #ifndef NICreateNonRetainingMutableDictionary
 #define NICreateNonRetainingMutableDictionary __NIMBUS_NS_SYMBOL(NICreateNonRetainingMutableDictionary)
 #endif
-#ifndef NISwapClassMethods
-#define NISwapClassMethods __NIMBUS_NS_SYMBOL(NISwapClassMethods)
-#endif
 #ifndef NIInterfaceOrientation
 #define NIInterfaceOrientation __NIMBUS_NS_SYMBOL(NIInterfaceOrientation)
 #endif
-#ifndef NICreateNonRetainingMutableSet
-#define NICreateNonRetainingMutableSet __NIMBUS_NS_SYMBOL(NICreateNonRetainingMutableSet)
+#ifndef NIRectExpand
+#define NIRectExpand __NIMBUS_NS_SYMBOL(NIRectExpand)
+#endif
+#ifndef NISwapClassMethods
+#define NISwapClassMethods __NIMBUS_NS_SYMBOL(NISwapClassMethods)
 #endif
 #ifndef NIStatusBarAnimationCurve
 #define NIStatusBarAnimationCurve __NIMBUS_NS_SYMBOL(NIStatusBarAnimationCurve)
@@ -128,83 +125,89 @@
 #ifndef NIStatusBarAnimationDuration
 #define NIStatusBarAnimationDuration __NIMBUS_NS_SYMBOL(NIStatusBarAnimationDuration)
 #endif
-#ifndef NIDeviceOSVersionIsAtLeast
-#define NIDeviceOSVersionIsAtLeast __NIMBUS_NS_SYMBOL(NIDeviceOSVersionIsAtLeast)
-#endif
 #ifndef NIStatusBarBoundsChangeAnimationCurve
 #define NIStatusBarBoundsChangeAnimationCurve __NIMBUS_NS_SYMBOL(NIStatusBarBoundsChangeAnimationCurve)
 #endif
-#ifndef NIIsSetWithObjects
-#define NIIsSetWithObjects __NIMBUS_NS_SYMBOL(NIIsSetWithObjects)
+#ifndef NICreateNonRetainingMutableSet
+#define NICreateNonRetainingMutableSet __NIMBUS_NS_SYMBOL(NICreateNonRetainingMutableSet)
 #endif
 #ifndef NIStatusBarBoundsChangeAnimationDuration
 #define NIStatusBarBoundsChangeAnimationDuration __NIMBUS_NS_SYMBOL(NIStatusBarBoundsChangeAnimationDuration)
 #endif
-#ifndef NINetworkActivityTaskDidStart
-#define NINetworkActivityTaskDidStart __NIMBUS_NS_SYMBOL(NINetworkActivityTaskDidStart)
-#endif
-#ifndef NIRectExpand
-#define NIRectExpand __NIMBUS_NS_SYMBOL(NIRectExpand)
-#endif
-#ifndef NIScreenScale
-#define NIScreenScale __NIMBUS_NS_SYMBOL(NIScreenScale)
+#ifndef NIRectShift
+#define NIRectShift __NIMBUS_NS_SYMBOL(NIRectShift)
 #endif
 #ifndef NIStatusBarHeight
 #define NIStatusBarHeight __NIMBUS_NS_SYMBOL(NIStatusBarHeight)
 #endif
-#ifndef NIPathForDocumentsResource
-#define NIPathForDocumentsResource __NIMBUS_NS_SYMBOL(NIPathForDocumentsResource)
+#ifndef NIDeviceOSVersionIsAtLeast
+#define NIDeviceOSVersionIsAtLeast __NIMBUS_NS_SYMBOL(NIDeviceOSVersionIsAtLeast)
+#endif
+#ifndef NIIsSetWithObjects
+#define NIIsSetWithObjects __NIMBUS_NS_SYMBOL(NIIsSetWithObjects)
 #endif
 #ifndef NIRotateTransformForOrientation
 #define NIRotateTransformForOrientation __NIMBUS_NS_SYMBOL(NIRotateTransformForOrientation)
 #endif
-#ifndef NIRectShift
-#define NIRectShift __NIMBUS_NS_SYMBOL(NIRectShift)
+#ifndef NINetworkActivityTaskDidStart
+#define NINetworkActivityTaskDidStart __NIMBUS_NS_SYMBOL(NINetworkActivityTaskDidStart)
 #endif
-#ifndef NIIsStringWithAnyText
-#define NIIsStringWithAnyText __NIMBUS_NS_SYMBOL(NIIsStringWithAnyText)
+#ifndef NIScreenScale
+#define NIScreenScale __NIMBUS_NS_SYMBOL(NIScreenScale)
+#endif
+#ifndef NIPathForDocumentsResource
+#define NIPathForDocumentsResource __NIMBUS_NS_SYMBOL(NIPathForDocumentsResource)
 #endif
 #ifndef NIFrameOfCenteredViewWithinView
 #define NIFrameOfCenteredViewWithinView __NIMBUS_NS_SYMBOL(NIFrameOfCenteredViewWithinView)
 #endif
-#ifndef NINetworkActivityTaskDidFinish
-#define NINetworkActivityTaskDidFinish __NIMBUS_NS_SYMBOL(NINetworkActivityTaskDidFinish)
-#endif
 #ifndef NIDeviceRotationDuration
 #define NIDeviceRotationDuration __NIMBUS_NS_SYMBOL(NIDeviceRotationDuration)
 #endif
-#ifndef NIPathForLibraryResource
-#define NIPathForLibraryResource __NIMBUS_NS_SYMBOL(NIPathForLibraryResource)
-#endif
-#ifndef NIUIPopoverControllerClass
-#define NIUIPopoverControllerClass __NIMBUS_NS_SYMBOL(NIUIPopoverControllerClass)
+#ifndef NIIsStringWithAnyText
+#define NIIsStringWithAnyText __NIMBUS_NS_SYMBOL(NIIsStringWithAnyText)
 #endif
 #ifndef NICellContentPadding
 #define NICellContentPadding __NIMBUS_NS_SYMBOL(NICellContentPadding)
 #endif
-#ifndef NIUITapGestureRecognizerClass
-#define NIUITapGestureRecognizerClass __NIMBUS_NS_SYMBOL(NIUITapGestureRecognizerClass)
+#ifndef NINetworkActivityTaskDidFinish
+#define NINetworkActivityTaskDidFinish __NIMBUS_NS_SYMBOL(NINetworkActivityTaskDidFinish)
+#endif
+#ifndef NIUIPopoverControllerClass
+#define NIUIPopoverControllerClass __NIMBUS_NS_SYMBOL(NIUIPopoverControllerClass)
+#endif
+#ifndef NISnapshotOfView
+#define NISnapshotOfView __NIMBUS_NS_SYMBOL(NISnapshotOfView)
 #endif
 #ifndef NISnapshotViewOfView
 #define NISnapshotViewOfView __NIMBUS_NS_SYMBOL(NISnapshotViewOfView)
 #endif
-#ifndef NIPathForCachesResource
-#define NIPathForCachesResource __NIMBUS_NS_SYMBOL(NIPathForCachesResource)
+#ifndef NIUITapGestureRecognizerClass
+#define NIUITapGestureRecognizerClass __NIMBUS_NS_SYMBOL(NIUITapGestureRecognizerClass)
+#endif
+#ifndef NIPathForLibraryResource
+#define NIPathForLibraryResource __NIMBUS_NS_SYMBOL(NIPathForLibraryResource)
 #endif
 #ifndef NISizeOfStringWithLabelProperties
 #define NISizeOfStringWithLabelProperties __NIMBUS_NS_SYMBOL(NISizeOfStringWithLabelProperties)
 #endif
-#ifndef NISwizzleMethodsForNetworkActivityDebugging
-#define NISwizzleMethodsForNetworkActivityDebugging __NIMBUS_NS_SYMBOL(NISwizzleMethodsForNetworkActivityDebugging)
+#ifndef NIPathForCachesResource
+#define NIPathForCachesResource __NIMBUS_NS_SYMBOL(NIPathForCachesResource)
 #endif
-#ifndef NIMakeNSRangeFromCFRange
-#define NIMakeNSRangeFromCFRange __NIMBUS_NS_SYMBOL(NIMakeNSRangeFromCFRange)
+#ifndef NISnapshotOfViewWithTransparency
+#define NISnapshotOfViewWithTransparency __NIMBUS_NS_SYMBOL(NISnapshotOfViewWithTransparency)
 #endif
 #ifndef NIEnableNetworkActivityDebugging
 #define NIEnableNetworkActivityDebugging __NIMBUS_NS_SYMBOL(NIEnableNetworkActivityDebugging)
 #endif
 #ifndef NIDisableNetworkActivityDebugging
 #define NIDisableNetworkActivityDebugging __NIMBUS_NS_SYMBOL(NIDisableNetworkActivityDebugging)
+#endif
+#ifndef NISnapshotViewOfViewWithTransparency
+#define NISnapshotViewOfViewWithTransparency __NIMBUS_NS_SYMBOL(NISnapshotViewOfViewWithTransparency)
+#endif
+#ifndef NIMakeNSRangeFromCFRange
+#define NIMakeNSRangeFromCFRange __NIMBUS_NS_SYMBOL(NIMakeNSRangeFromCFRange)
 #endif
 #ifndef NIMD5HashFromData
 #define NIMD5HashFromData __NIMBUS_NS_SYMBOL(NIMD5HashFromData)

@@ -31,9 +31,6 @@
 #ifndef NICenteringScrollView
 #define NICenteringScrollView __NIMBUS_NS_SYMBOL(NICenteringScrollView)
 #endif
-#ifndef NINavigationAppearance
-#define NINavigationAppearance __NIMBUS_NS_SYMBOL(NINavigationAppearance)
-#endif
 #ifndef NIPagingScrollView
 #define NIPagingScrollView __NIMBUS_NS_SYMBOL(NIPagingScrollView)
 #endif
